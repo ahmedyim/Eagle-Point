@@ -38,10 +38,12 @@ const getUrlData=async(url:string,maxRetries:number):Promise<UrlResponseType|und
 }
 
 function textDetail(text:string):TextAn{
+            // get words with array and as its
             const words=text.match(/\b\w+\b/g)||[]
             const lowerText=text.toLowerCase().match(/\b\w+\b/g)||[]
             // find unique words means Case sensive
             const uniqueWords=Array.from(new Set(words))
+        //  get words length
             const wordsCount=uniqueWords.length
             const totalLength=uniqueWords.reduce((sum,word)=>sum+word.length,0)
             const average_word_length=totalLength/wordsCount
