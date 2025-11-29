@@ -1,12 +1,12 @@
 # eagelpoint
 
-A high performance backend built with ** bun type script Graphql ** featuring * user register ,and per-user rate limiting,and login * to secure End points.
-Like , a text analyzer, URL data fetcher . Fully containerized using Docker & Docker Compose.
+A high performance backend built with **bun type script Graphql** featuring *user register ,and per-user rate limiting,and login* to secure End points.
+Like , **a text analyzer, URL data fetcher** . **Fully containerized using Docker & Docker Compose**.
 
 Allow user to get acceess token when it is expired with graphql mutation
 
 
-Features
+**Features**
 
  User Registration using GraphQL mutations
 
@@ -23,7 +23,7 @@ Features
  MongoDB Integration for persistent storage
 
 
-To install dependencies:
+**To install dependencies**:
 
 ```bash
 bun install
@@ -34,7 +34,7 @@ To run:
 ```bash
 bun run --watch index.ts
 ```
---- for unit test  use  command
+ **For unit test  use  command**
 ```bash
 bun test
 ```
