@@ -48,7 +48,7 @@ export const userResolvers = {
 // check password match
     const  isPassMatch=await bcrypt.compare(password,user.password.toString())
     if(!isPassMatch){
-      throw new GraphQLError("Invalid credentials")
+      throw new GraphQLError("Invalid Credentials")
     }
     // generat token 
     try{
