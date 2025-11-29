@@ -37,7 +37,7 @@ bun run --watch index.ts
 --- for unit test  use  command
 ```bash
 bun test
-```bash
+```
 
  
 http://localhost:4001/graphql   open this on your browser
