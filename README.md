@@ -8,19 +8,19 @@ Allow user to get acceess token when it is expired with graphql mutation
 
 Features
 
-🔐 User Registration using GraphQL mutations
+ User Registration using GraphQL mutations
 
-📊 Text Analyzer (word count,  frequancy,average words..., , etc.)
+ Text Analyzer (word count,  frequancy,average words..., , etc.)
 
-🌐 Fetch Data From Any URL
+ Fetch Data From Any URL
 
-⏳ Rate Limiting per User to prevent abuse
+ Rate Limiting per User to prevent abuse
 
-🐳 Dockerized for easy setup and deployment
+ Dockerized for easy setup and deployment
 
-⚡ Bun Runtime for extremely fast execution
+ Bun Runtime for extremely fast execution
 
-🗄 MongoDB Integration for persistent storage
+ MongoDB Integration for persistent storage
 
 
 To install dependencies:
@@ -34,5 +34,6 @@ To run:
 ```bash
 bun run --watch index.ts
 ```
+--- for unit test  use bun test command 
 http://localhost:4001/graphql   open this on your browser
 
