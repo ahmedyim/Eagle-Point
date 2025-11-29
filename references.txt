@@ -1,0 +1,16 @@
+https://medium.com/@meghpatel9737/sign-up-and-login-using-graphql-node-js-mongoose-express-and-jwt-based-authentication-and-4c7da714170c
+
+
+
+https://bun.com/docs/guides/ecosystem/mongoose
+
+
+validator   https://www.npmjs.com/package/@the-node-forge/url-validator?activeTab=readme
+
+
+
+https://jsonplaceholder.typicode.com/
+https://hub.docker.com/r/oven/bun
+
+
+
