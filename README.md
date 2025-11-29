@@ -1,6 +1,6 @@
 # eagelpoint
 
-A high performance backend built with bun type script Graphql featuring user register ,and per-user rate limiting,and login to secure End points.
+A high performance backend built with ** bun type script Graphql ** featuring * user register ,and per-user rate limiting,and login * to secure End points.
 Like , a text analyzer, URL data fetcher . Fully containerized using Docker & Docker Compose.
 
 Allow user to get acceess token when it is expired with graphql mutation
